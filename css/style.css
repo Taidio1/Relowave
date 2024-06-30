@@ -10,7 +10,7 @@
   
   .switch > span {
 	position: absolute;
-	top: 10px;
+	top: 0px;
 	pointer-events: none;
 	font-family: 'Helvetica', Arial, sans-serif;
 	font-weight: bold;
