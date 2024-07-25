@@ -1,6 +1,7 @@
 "use strict";
 
 
+
 const multipleItemCarousel = document.querySelector("#testimonialCarousel");
 
 if (window.matchMedia("(min-width:576px)").matches) {

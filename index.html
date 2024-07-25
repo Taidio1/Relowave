@@ -41,20 +41,18 @@
               <div class="rd-navbar-nav-wrap">
                 <!-- RD Navbar Nav-->
                 <ul class="rd-navbar-nav">
-                  <li class="rd-nav-item active"><a class="rd-nav-link" href="index.html">Strona Główna</a>
+                  <li class="rd-nav-item active"><a id="stronaglowna" class="rd-nav-link" href="index.html">Strona Główna</a>
                   </li>
-                  <li class="rd-nav-item"><a class="rd-nav-link" href="index.html#about-us">O Nas</a>
+                  <li class="rd-nav-item"><a id="onas" class="rd-nav-link" href="index.html#about-us">O Nas</a>
                   </li>
-                  <li class="rd-nav-item"><a class="rd-nav-link" href="index.html#Services">Usługi</a>
+                  <li class="rd-nav-item"><a id="uslugi" class="rd-nav-link" href="index.html#Services">Usługi</a>
                   </li>
-                  <li class="rd-nav-item"><a class="rd-nav-link" href="index.html#kontakt">Kontakt</a>
+                  <li class="rd-nav-item"><a id="kontakt" class="rd-nav-link" href="index.html#kontakt">Kontakt</a>
                   </li>
                 </ul>
-                <div class="switch">
-                  <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox">
-                  <label for="language-toggle"></label>
-                  <span language='polish' class="on">PL</span>
-                  <span language='english' class="off">EN</span>
+                <div class="dropdown" tab-index="0">
+                  <button id="dropdown-btn"></button>
+                  <ul class="dropdown-content" id="dropdown-content"></ul>
                 </div>
               </div>
               
@@ -68,11 +66,11 @@
           <div class="page-header-2-inner">
             <div class="container">
               <div class="block-custom">
-                <h2 class="font-weight-extra-black wow clipInLeft" data-wow-delay=".1s">Witamy w Relowave!</h2>
-                <h4 class="text-default wow clipInLeft" data-wow-delay=".1s">Nasza misja to ułatwienie procesu legalizacji pobytu w Polsce</h4>
+                <h2 id="Tytul" class="font-weight-extra-black wow clipInLeft" data-wow-delay=".1s">Witamy w Relowave!</h2>
+                <h4 id="slogan" class="text-default wow clipInLeft" data-wow-delay=".1s">Nasza misja to ułatwienie procesu legalizacji pobytu w Polsce</h4>
                 <div class="group-xl group-middle">
-                  <div><a class="button button-lg button-white button-shadow button-winona wow clipInLeft" href="about-us.html" data-wow-delay=".2s">Klient Biznesowy</a></div>
-                  <div><a class="button button-lg button-primary button-shadow button-winona wow clipInLeft" href="contact-us.html" data-wow-delay=".2s">Klient Indywidualny</a></div>
+                  <div><a id="btnbiz" class="button button-lg button-white button-shadow button-winona wow clipInLeft" href="about-us.html" data-wow-delay=".2s">Klient Biznesowy</a></div>
+                  <div><a id="btnind" class="button button-lg button-primary button-shadow button-winona wow clipInLeft" href="contact-us.html" data-wow-delay=".2s">Klient Indywidualny</a></div>
                 </div>
               </div>
             </div>
@@ -521,6 +519,7 @@
       </footer>
     </div>
     <div class="snackbars" id="form-output-global"></div>
+    <script src="js/language.js"></script>
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
   </body>
