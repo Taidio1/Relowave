@@ -1140,7 +1140,7 @@ a[href*='tel'], a[href*='mailto'] {
 }
 
 .link-modern:hover {
-	color: #ff6f80;
+	color: #0C384D;
 }
 
 .icon.link-waypoint-icon {
@@ -2064,6 +2064,7 @@ div.box-custom-5-main {
 @media (min-width: 992px) and (max-width: 1199.98px) {
 	.box-modern {
 		padding-left: 9px;
+		height: 100%;
 		padding-right: 9px;
 	}
 }
@@ -2071,6 +2072,7 @@ div.box-custom-5-main {
 @media (min-width: 1200px) {
 	.box-modern {
 		padding-top: 55px;
+		height:100%;
 		padding-bottom: 60px;
 	}
 	.box-modern-media {
@@ -3215,6 +3217,7 @@ img {
 	display: inline-block;
 	max-width: 100%;
 	height: auto;
+	background-size: cover;
 }
 
 .img-responsive {
@@ -3486,7 +3489,7 @@ hr {
 .button-default:hover, .button-default:active {
 	color: #ffffff;
 	background-color: #3375ec;
-	border-color: #3375ec;
+	border-color: #1b8dc1;
 }
 
 .button-default.button-ujarak::before {
@@ -3496,13 +3499,13 @@ hr {
 .button-primary, .button-primary:focus {
 	color: #ffffff;
 	background-color: #3375ec;
-	border-color: #3375ec;
+	border-color: #1b8dc1;
 }
 
 .button-primary:hover, .button-primary:active {
 	color: #ffffff;
-	background-color: #ff6f80;
-	border-color: #ff6f80;
+	background-color: #0C384D;
+	border-color: #41738a;
 }
 
 .button-primary.button-ujarak::before {
@@ -3517,8 +3520,8 @@ hr {
 
 .button-white:hover, .button-white:active {
 	color: #ffffff;
-	background-color: #3375ec;
-	border-color: #3375ec;
+	background-color: #0C384D;
+	border-color: #41738a;
 }
 
 .button-white.button-ujarak::before {
