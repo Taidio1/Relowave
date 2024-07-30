@@ -403,6 +403,11 @@ ul {
 	  margin-right: 0;
 	  flex: 0 0 calc(100% / 3);
 	}
+	.podtytul{
+		margin-bottom: 25px;
+		display: flex;
+        justify-content: center;
+	}
   }
   .carousel .card {
 	margin: 0 0.5em;
