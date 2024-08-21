@@ -2,194 +2,215 @@ const locales = ["en-GB", "pl-PL", "uk-UA"];
 const languageMap = {
   "en-GB": "eng",
   "pl-PL": "pl",
-  "uk-UA": "uk" // Zakładając, że dodasz ukraińskie tłumaczenia
+  "uk-UA": "uk"
 };
 
 const languages = {
   pl: {
     //nav
     stronaglowna: "Strona Główna",
-    onas:"O Nas",
-    uslugi:"Usługi",
-    kontakt:"Kontakt",
+    onas: "O Nas",
+    uslugi: "Usługi",
+    kontakt: "Kontakt",
     //Welocome Page
     Tytul: "Witamy w Relowave!",
     slogan: "Nasza misja to ułatwienie procesu legalizacji pobytu w Polsce",
-    btnind: "Klient Indywidualny",
-    btnbiz: "Klient biznesowy",
+    btnind: "Zapoznaj się",
 
 
     //Services
-    Tytul1SE:"Nasze Usługi",
-    Tytul2SE:"Czym się zajmujemy",
-    Lista1SE:"Legalizacja pobytu",
-    Lista2SE:"Zezwolenia na pracę",
-    Lista3SE:"Uzyskanie obywatelstwa",
-    Lista4SE:"Konsultacje i doradztwo",
-    Lista5SE:"Zezwolenie na prawo jazdy",
-    Lista6SE:"Tłumaczenia dokumentów",
+    Tytul1SE: "Nasze Usługi",
+    Tytul2SE: "Czym się zajmujemy",
+    Lista1SE: "Legalizacja pobytu",
+    Lista2SE: "Zezwolenia na pracę",
+    Lista3SE: "Uzyskanie obywatelstwa",
+    Lista4SE: "Konsultacje",
+    Lista5SE: "Zezwolenie na prawo jazdy",
+    Lista6SE: "Uznanie zagranicznych aktów stanu cywilnego",
 
-    Opis1AS:"Pobyt tymczasowy, Pobyt stały,Pobyt długoterminowy",
-    Opis2AS:"Wspieramy w uzyskaniu wszelkich koniecznych zezwoleń na pracę.",
-    Opis3AS:"Pomagamy w uzyskaniu dokumentów związanych z uzyskaniem obywatelstwa.",
-    Opis4AS:"Oferujemy profesjonalne doradztwo na każdym etapie procesu legalizacji.",
-    Opis5AS:"Pomoc w Uzyskaniu niezbędnych dokumentów do legalizacji prawa jazdy w Polsce",
-    Opis6AS:"Profesjonalne tłumaczenia dokumentów zgodnych z Polskimi przepisami",
-    
+    Opis1AS: "Pobyt tymczasowy, Pobyt stały,Pobyt długoterminowy",
+    Opis2AS: "Wspieramy w uzyskaniu wszelkich koniecznych zezwoleń na pracę.",
+    Opis3AS: "Pomagamy w uzyskaniu dokumentów związanych z uzyskaniem obywatelstwa.",
+    Opis4AS: "Oferujemy profesjonalne wsparcie na każdym etapie procesu legalizacji.",
+    Opis5AS: "Pomoc w Uzyskaniu niezbędnych dokumentów do legalizacji prawa jazdy w Polsce",
+    Opis6AS: "Pomoc w uznaniu zagranicznych aktów stanu cywilnego",
+
     //About Us
-    titleAU:"O NAS",
-    podtytulAU:"to firma specjalizująca się w legalizacji pobytu cudzoziemców w Polsce.Od lat pomagamy naszym klientom w uzyskaniu wszelkich niezbędnych zezwoleń i dokumentów, dbając o najwyższą jakość świadczonych usług.",
+    titleAU: "O NAS",
+    podtytulAU: "to firma specjalizująca się w legalizacji pobytu cudzoziemców w Polsce.Od lat pomagamy naszym klientom w uzyskaniu wszelkich niezbędnych zezwoleń i dokumentów, dbając o najwyższą jakość świadczonych usług.",
 
-    punkt1AU:"Doświadczenie:",
-    punkt2AU:"Wykwalifikowany zespół:",
-    punkt3AU:"Elastyczność i zaangażowanie:",
+    punkt1AU: "Doświadczenie:",
+    punkt2AU: "Wykwalifikowany zespół:",
+    punkt3AU: "Elastyczność i zaangażowanie:",
 
-    Opis1AU:"Ponad 5 lat doświadczenia w branży",
-    Opis2AU:"Nasi specjaliści to eksperci w dziedzinie legalizacji pobytu.",
-    Opis3AU:"Dopasowujemy nasze usługi do indywidualnych potrzeb każdego klienta.",
-    btnMore:"Czytaj Więcej",
+    Opis1AU: "Ponad 5 lat doświadczenia w branży",
+    Opis2AU: "Nasi specjaliści to eksperci w dziedzinie legalizacji pobytu.",
+    Opis3AU: "Dopasowujemy nasze usługi do indywidualnych potrzeb każdego klienta.",
+    btnMore: "Czytaj Więcej",
 
     //Opinie
-    OpinieT:"Opinie",
+    OpinieT: "Opinie",
 
     //Plany
-    TytulPl:"NASZE PLANY",
-    PodTytulPl:"Dostosowane do Twoich potrzeb",
-    Title1Pl:"KONSULTACJA",
-    Title2Pl:"PAKIET RODZINNY",
-    Title3Pl:"PRACA W POLSCE",
+    TytulPl: "NASZE PAKIETY",
+    PodTytulPl: "Dostosowane do Twoich potrzeb",
+    Title1Pl: "KONSULTACJA",
+    Title2Pl: "KONSULTACJA",
+    Title3Pl: "PAKIET PODSTAWOWY",
+    Title4Pl: "PAKIET BIZNESOWY",
 
-    Kons1Pl:"• Wstępna Konsultacja",
-    Kons2Pl:"• Analiza Dokumentów",
-    Kons3Pl:"• Porady Wstępne Dotyczące Legalizacji Pobytu",
-    Kons4Pl:"• Informacje Na Temat Wymaganych Dokumentów",
+    Kons1Pl: "Wstępna Konsultacja",
+    Kons2Pl: "Analiza Dokumentów",
+    Kons3Pl: "Porady Wstępne Dotyczące Legalizacji Pobytu",
+    Kons4Pl: "Informacje Na Temat Wymaganych Dokumentów",
 
-    Rodz1Pl:"• Konsultacje Dla Całej Rodziny",
-    Rodz2Pl:"• Pomoc W Przygotowaniu I Złożeniu Wniosków",
-    Rodz3Pl:"• Kompleksowa Obsługa Dokumentacji Dla Wszystkich Członków Rodziny",
-    Rodz4Pl:"• Tłumaczenia Przysięgłe Dokumentów",
-    Rodz5Pl:"• Reprezentacja Przed Urzędami",
-    Rodz6Pl:"• Aktualizacje Statusu Wniosków",
+    Rodz1Pl: "Konsultacje Dla Całej Rodziny",
+    Rodz2Pl: "Pomoc W Przygotowaniu I Złożeniu Wniosków",
+    Rodz3Pl: "Kompleksowa Obsługa Dokumentacji Dla Wszystkich Członków Rodziny",
+    Rodz4Pl: "Tłumaczenia Przysięgłe Dokumentów",
+    Rodz5Pl: "Reprezentacja Przed Urzędami",
+    Rodz6Pl: "Aktualizacje Statusu Wniosków",
 
-    Praca1Pl:"• Legalizacji Pobytu Dla Celów Zawodowych",
-    Praca2Pl:"• Wsparcie W Uzyskaniu Zezwoleń Na Pracę",
-    Praca3Pl:"• Pomoc W Przygotowaniu Dokumentacji",
-    Praca4Pl:"• Tłumaczenia Dokumentów Zawodowych",
-    Praca5Pl:"• Porady Dotyczące Przepisów Prawa Pracy",
-    Praca6Pl:"• Reprezentacja Przed Urzędami Pracy",
+    Praca1Pl: "Legalizacji Pobytu Dla Celów Zawodowych",
+    Praca2Pl: "Wsparcie W Uzyskaniu Zezwoleń Na Pracę",
+    Praca3Pl: "Pomoc W Przygotowaniu Dokumentacji",
+    Praca4Pl: "Tłumaczenia Dokumentów Zawodowych",
+    Praca5Pl: "Porady Dotyczące Przepisów Prawa Pracy",
+    Praca6Pl: "Reprezentacja Przed Urzędami Pracy",
 
-    Btn1Pl:"Kontakt",
-    Btn2Pl:"Kontakt",
-    Btn3Pl:"Kontakt",
+    Btn1Pl: "Kontakt",
+    Btn2Pl: "Kontakt",
+    Btn3Pl: "Kontakt",
+    Btn4Pl: "Kontakt",
 
     //Sekcja: Czemy my?
-    TytulWU:"CZEMU MY?",
-    PodTytulWU:"Dlaczego warto wybrać Relowave?",
-    OpisWo:"Wybór odpowiedniej firmy do legalizacji pobytu w Polsce to klucz do sukcesu. Oto kilka powodów, dla których Relowave jest najlepszym wyborem:",
-    List1Wu:"Profesjonalizm i Doświadczenie",
-    List2Wu:"Szybkość i Efektywność",
-    List3Wu:"Indywidualne Podejście",
-    List4Wu:"Kompleksowe Usługi",
-    List5Wu:"Wsparcie i Doradztwo",
+    TytulWU: "CZEMU MY?",
+    PodTytulWU: "Dlaczego warto wybrać Relowave?",
+    OpisWo: "Wybór odpowiedniej firmy do legalizacji pobytu w Polsce to klucz do sukcesu. Oto kilka powodów, dla których Relowave jest najlepszym wyborem:",
+    List1Wu: "Profesjonalizm i Doświadczenie",
+    List2Wu: "Szybkość i Efektywność",
+    List3Wu: "Indywidualne Podejście",
+    List4Wu: "Kompleksowe Usługi",
+    List5Wu: "Wsparcie i Doradztwo",
 
     //Kontakt
-    TytulKo:"Nasze Biuro",
-    TytulWi:"Napisz do Nas",
-    BtnWi:"Wyślij Wiadomość"
+    TytulKo: "Nasze Biuro",
+    TytulWi: "Napisz do Nas",
+    BtnWi: "Wyślij Wiadomość",
+
+    //Footer
+    Slogan: "Pomagamy Ludziom od 2022 roku",
+    StronaglownaFO: "Strona Główna",
+    OnasFO: "O Nas",
+    UslugiFO: "Usługi",
+    KontaktFO: "Kontakt",
+    SkontFO: "Skontaktuj się",
+
+
   },
   eng: {
-     //nav
-     stronaglowna: "Home",
-     onas:"About Us",
-     uslugi:"Services",
-     kontakt:"Contact",
-     //Welcome Page
-     Tytul: "Welcome to Relowave!",
-     slogan: "Our mission is to simplify the process of legalizing your stay in Poland",
-     btnind: "Individual Client",
-     btnbiz: "Business Client",
- 
-     //Services
-     Tytul1SE: "Our Services",
-     Tytul2SE: "What We Do",
+    //nav
+    stronaglowna: "Home",
+    onas: "About Us",
+    uslugi: "Services",
+    kontakt: "Contact",
+    //Welcome Page
+    Tytul: "Welcome to Relowave!",
+    slogan: "Our mission is to simplify the process of legalizing your stay in Poland",
+    btnind: "Read More",
 
-     Lista1SE:"Residence Legalization",
-     Lista2SE:"Work Permits",
-     Lista3SE:"Citizenship Acquisition",
-     Lista4SE:"Consultations and Advisory",
-     Lista5SE:"Driver's License Permit",
-     Lista6SE:"Document Translations",
- 
-     Opis1AS:"Temporary Residence, Permanent Residence, Long-term Residence",
-     Opis2AS:"We support in obtaining all necessary work permits.",
-     Opis3AS:"We assist in obtaining documents related to citizenship acquisition.",
-     Opis4AS:"We offer professional advice at every stage of the legalization process.",
-     Opis5AS:"Assistance in obtaining necessary documents for legalizing your driver's license in Poland",
-     Opis6AS:"Professional translations of documents in accordance with Polish regulations",
-     
-     //About Us
-     titleAU:"ABOUT US",
-     podtytulAU:"is a company specializing in the legalization of foreigners' stay in Poland. For years, we have been helping our clients obtain all necessary permits and documents, ensuring the highest quality of services provided.",
- 
-     punkt1AU:"Experience:",
-     punkt2AU:"Qualified Team:",
-     punkt3AU:"Flexibility and Commitment:",
- 
-     Opis1AU:"Over 5 years of industry experience",
-     Opis2AU:"Our specialists are experts in the field of residence legalization.",
-     Opis3AU:"We tailor our services to the individual needs of each client.",
-     btnMore:"Read More",
- 
-     //Opinions
-     OpinieT:"Reviews",
- 
-     //Plans
-     TytulPl:"OUR PLANS",
-     PodTytulPl:"Tailored to Your Needs",
-     Title1Pl:"CONSULTATION",
-     Title2Pl:"FAMILY PACKAGE",
-     Title3Pl:"WORK IN POLAND",
- 
-     Kons1Pl:"• Initial Consultation",
-     Kons2Pl:"• Document Analysis",
-     Kons3Pl:"• Preliminary Advice on Residence Legalization",
-     Kons4Pl:"• Information on Required Documents",
- 
-     Rodz1Pl:"• Consultations for the Whole Family",
-     Rodz2Pl:"• Assistance in Preparing and Submitting Applications",
-     Rodz3Pl:"• Comprehensive Documentation Service for All Family Members",
-     Rodz4Pl:"• Certified Document Translations",
-     Rodz5Pl:"• Representation Before Offices",
-     Rodz6Pl:"• Application Status Updates",
- 
-     Praca1Pl:"• Residence Legalization for Professional Purposes",
-     Praca2Pl:"• Support in Obtaining Work Permits",
-     Praca3Pl:"• Assistance in Preparing Documentation",
-     Praca4Pl:"• Professional Document Translations",
-     Praca5Pl:"• Advice on Labor Law Regulations",
-     Praca6Pl:"• Representation Before Employment Offices",
+    //Services
+    Tytul1SE: "Our Services",
+    Tytul2SE: "What We Do",
 
-     Btn1Pl:"Contact",
-     Btn2Pl:"Contact",
-     Btn3Pl:"Contact",
-  
- 
-     BtnPl:"Contact",
- 
-     //Section: Why Us?
-     TytulWU:"WHY US?",
-     PodTytulWU:"Why Choose Relowave?",
-     OpisWo:"Choosing the right company for legalizing your stay in Poland is key to success. Here are some reasons why Relowave is the best choice:",
-     List1Wu:"Professionalism and Experience",
-     List2Wu:"Speed and Efficiency",
-     List3Wu:"Individual Approach",
-     List4Wu:"Comprehensive Services",
-     List5Wu:"Support and Advisory",
- 
-     //Contact
-     TytulKo:"Our Office",
-     TytulWi:"Write to Us",
-     BtnWi:"Send Message"
+    Lista1SE: "Residence Legalization",
+    Lista2SE: "Work Permits",
+    Lista3SE: "Citizenship Acquisition",
+    Lista4SE: "Consultations",
+    Lista5SE: "Driver's License Permit",
+    Lista6SE: "Recognition of foreign civil status records",
+
+    Opis1AS: "Temporary Residence, Permanent Residence, Long-term Residence",
+    Opis2AS: "We support in obtaining all necessary work permits.",
+    Opis3AS: "We assist in obtaining documents related to citizenship acquisition.",
+    Opis4AS: "We offer professional advice at every stage of the legalization process.",
+    Opis5AS: "Assistance in obtaining necessary documents for legalizing your driver's license in Poland",
+    Opis6AS: "Assistance in recognizing foreign civil status records",
+
+    //About Us
+    titleAU: "ABOUT US",
+    podtytulAU: "is a company specializing in the legalization of foreigners' stay in Poland. For years, we have been helping our clients obtain all necessary permits and documents, ensuring the highest quality of services provided.",
+
+    punkt1AU: "Experience:",
+    punkt2AU: "Qualified Team:",
+    punkt3AU: "Flexibility and Commitment:",
+
+    Opis1AU: "Over 5 years of industry experience",
+    Opis2AU: "Our specialists are experts in the field of residence legalization.",
+    Opis3AU: "We tailor our services to the individual needs of each client.",
+    btnMore: "Read More",
+
+    //Opinions
+    OpinieT: "Reviews",
+
+    //Plans
+    TytulPl: "OUR PACKAGES",
+    PodTytulPl: "Tailored to Your Needs",
+    Title1Pl: "CONSULTATION",
+    Title2Pl: "CONSULTATION",
+    Title3Pl: "BASIC PACKAGE",
+    Title4Pl: "BUSINESS PACKAGE",
+
+    Kons1Pl: "Initial Consultation",
+    Kons2Pl: "Document Analysis",
+    Kons3Pl: "Preliminary Advice on Residence Legalization",
+    Kons4Pl: "Information on Required Documents",
+
+    Rodz1Pl: "Consultations for the Whole Family",
+    Rodz2Pl: "Assistance in Preparing and Submitting Applications",
+    Rodz3Pl: "Comprehensive Documentation Service for All Family Members",
+    Rodz4Pl: "Certified Document Translations",
+    Rodz5Pl: "Representation Before Offices",
+    Rodz6Pl: "Application Status Updates",
+
+    Praca1Pl: "Residence Legalization for Professional Purposes",
+    Praca2Pl: "Support in Obtaining Work Permits",
+    Praca3Pl: "Assistance in Preparing Documentation",
+    Praca4Pl: "Professional Document Translations",
+    Praca5Pl: "Advice on Labor Law Regulations",
+    Praca6Pl: "Representation Before Employment Offices",
+
+    Btn1Pl: "Contact",
+    Btn2Pl: "Contact",
+    Btn3Pl: "Contact",
+    Btn4Pl: "Contact",
+
+
+    BtnPl: "Contact",
+
+    //Section: Why Us?
+    TytulWU: "WHY US?",
+    PodTytulWU: "Why Choose Relowave?",
+    OpisWo: "Choosing the right company for legalizing your stay in Poland is key to success. Here are some reasons why Relowave is the best choice:",
+    List1Wu: "Professionalism and Experience",
+    List2Wu: "Speed and Efficiency",
+    List3Wu: "Individual Approach",
+    List4Wu: "Comprehensive Services",
+    List5Wu: "Support and Advisory",
+
+    //Contact
+    TytulKo: "Our Office",
+    TytulWi: "Write to Us",
+    BtnWi: "Send Message",
+
+    //Footer
+    Slogan: "Helping People since 2022",
+    StronaglownaFO: "Home",
+    OnasFO: "About Us",
+    UslugiFO: "Services",
+    KontaktFO: "Contact",
+    SkontFO: "Get in Touch",
+
   },
   uk: {
     //nav
@@ -200,8 +221,7 @@ const languages = {
     //Welocome Page
     Tytul: "Ласкаво просимо до Relowave!",
     slogan: "Наша місія - спрощення процесу легалізації перебування в Польщі",
-    btnind: "Індивідуальний клієнт",
-    btnbiz: "Бізнес клієнт",
+    btnind: "Ознайомся",
 
     //Services
     Tytul1SE: "Наші Послуги",
@@ -209,16 +229,16 @@ const languages = {
     Lista1SE: "Легалізація перебування",
     Lista2SE: "Дозволи на роботу",
     Lista3SE: "Отримання громадянства",
-    Lista4SE: "Консультації та поради",
+    Lista4SE: "Консультації",
     Lista5SE: "Дозвіл на водіння",
-    Lista6SE: "Переклади документів",
+    Lista6SE: "Визнання іноземних актів цивільного стану",
 
     Opis1AS: "Тимчасове перебування, Постійне перебування, Довгострокове перебування",
     Opis2AS: "Допомагаємо у отриманні всіх необхідних дозволів на роботу.",
     Opis3AS: "Допомагаємо в отриманні документів, пов'язаних з отриманням громадянства.",
-    Opis4AS: "Пропонуємо професійні консультації на кожному етапі процесу легалізації.",
+    Opis4AS: "Допомога у визнанні іноземних актів цивільного стану.",
     Opis5AS: "Допомога у отриманні необхідних документів для легалізації водійського посвідчення в Польщі",
-    Opis6AS: "Професійні переклади документів, що відповідають польським нормам",
+    Opis6AS: "Допомога у визнанні іноземних актів цивільного стану",
 
     //About Us
     titleAU: "ПРО НАС",
@@ -237,11 +257,12 @@ const languages = {
     OpinieT: "Відгуки",
 
     //Plany
-    TytulPl: "НАШІ ПЛАНИ",
+    TytulPl: "НАШІ ПАКЕТИ",
     PodTytulPl: "Задовольняючи ваші потреби",
     Title1Pl: "КОНСУЛЬТАЦІЯ",
-    Title2Pl: "СІМЕЙНИЙ ПАКЕТ",
-    Title3Pl: "РОБОТА В ПОЛЬЩІ",
+    Title2Pl: "КОНСУЛЬТАЦІЯ",
+    Title3Pl: "БАЗОВИЙ ПАКЕТ",
+    Title4Pl: "БІЗНЕС-ПАКЕТ",
 
     Kons1Pl: "Попередня Консультація",
     Kons2Pl: "Аналіз Документів",
@@ -262,7 +283,10 @@ const languages = {
     Praca5Pl: "Поради щодо трудового права",
     Praca6Pl: "Представництво перед органами праці",
 
-    BtnPl: "Контакт",
+    Btn1Pl: "Контакт",
+    Btn2Pl: "Контакт",
+    Btn3Pl: "Контакт",
+    Btn4Pl: "Контакт",
 
     //Sekcja: Czemy my?
     TytulWU: "ЧОМУ МИ?",
@@ -277,7 +301,16 @@ const languages = {
     //Kontakt
     TytulKo: "Наш офіс",
     TytulWi: "Напишіть нам",
-    BtnWi: "Надіслати повідомлення"
+    BtnWi: "Надіслати повідомлення",
+
+    //footer
+    Slogan: "Допомагаємо людям з 2022 року",
+    StronaglownaFO: "Головна сторінка",
+    OnasFO: "Про нас",
+    UslugiFO: "Послуги",
+    KontaktFO: "Контакт",
+    SkontFO: "Зв'яжіться з нами",
+
   }
 };
 
@@ -291,8 +324,7 @@ function updateTexts(language) {
   document.getElementById('Tytul').innerText = languages[language].Tytul;
   document.getElementById('slogan').innerText = languages[language].slogan;
   document.getElementById('btnind').innerText = languages[language].btnind;
-  document.getElementById('btnbiz').innerText = languages[language].btnbiz;
-   //Servieces 
+  //Servieces 
   document.getElementById('Tytul1SE').innerText = languages[language].Tytul1SE;
   document.getElementById('Tytul2SE').innerText = languages[language].Tytul2SE;
 
@@ -354,22 +386,20 @@ function updateTexts(language) {
   document.getElementById('Btn1Pl').innerText = languages[language].Btn1Pl;
   document.getElementById('Btn2Pl').innerText = languages[language].Btn2Pl;
   document.getElementById('Btn3Pl').innerText = languages[language].Btn3Pl;
-  //Sekcja: Czemu My
-  document.getElementById('TytulWU').innerText = languages[language].TytulWU;
-  document.getElementById('PodTytulWU').innerText = languages[language].PodTytulWU;
-  document.getElementById('OpisWo').innerText = languages[language].OpisWo;
-  document.getElementById('List1Wu').innerText = languages[language].List1Wu;
-  document.getElementById('List2Wu').innerText = languages[language].List2Wu;
-  document.getElementById('List3Wu').innerText = languages[language].List3Wu;
-  document.getElementById('List4Wu').innerText = languages[language].List4Wu;
-  document.getElementById('List5Wu').innerText = languages[language].List5Wu;
+  document.getElementById('Btn4Pl').innerText = languages[language].Btn4Pl;
   //Kontakt
   document.getElementById('TytulKo').innerText = languages[language].TytulKo;
   //Napuisz do nas
   document.getElementById('TytulWi').innerText = languages[language].TytulWi;
   document.getElementById('BtnWi').innerText = languages[language].BtnWi;
 
-
+  document.getElementById('Slogan').innerText = languages[language].Slogan;
+  document.getElementById('StronaglownaFO').innerText = languages[language].StronaglownaFO;
+  document.getElementById('OnasFO').innerText = languages[language].OnasFO;
+  document.getElementById('UslugiFO').innerText = languages[language].UslugiFO;
+  document.getElementById('KontaktFO').innerText = languages[language].KontaktFO;
+  document.getElementById('SkontFO').innerText = languages[language].SkontFO;
+  
 
 
 
@@ -377,8 +407,8 @@ function updateTexts(language) {
 };
 function getFlagSrc(countryCode) {
   return /^[A-Z]{2}$/.test(countryCode)
-  ? `https://flagsapi.com/${countryCode.toUpperCase()}/shiny/64.png`
-  : "";
+    ? `https://flagsapi.com/${countryCode.toUpperCase()}/shiny/64.png`
+    : "";
 };
 
 const dropdownBtn = document.getElementById("dropdown-btn");

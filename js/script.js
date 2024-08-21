@@ -2,6 +2,30 @@
 
 
 
+document.addEventListener('DOMContentLoaded', function () {
+    const menuItems = document.querySelectorAll('.rd-nav-item');
+
+    menuItems.forEach(item => {
+        item.addEventListener('click', function () {
+            // Usunięcie klasy 'active' z wszystkich elementów
+            menuItems.forEach(el => el.classList.remove('active'));
+
+            // Dodanie klasy 'active' do klikniętego elementu
+            this.classList.add('active');
+        });
+    });
+
+    // Opcjonalnie: Ustawienie aktywnego elementu na podstawie aktualnego URL
+    const currentHash = window.location.hash;
+    if (currentHash) {
+        const activeItem = document.querySelector(`.menu-item[href="${currentHash}"]`);
+        if (activeItem) {
+            activeItem.classList.add('active');
+        }
+    }
+});
+
+
 const multipleItemCarousel = document.querySelector("#testimonialCarousel");
 
 if (window.matchMedia("(min-width:576px)").matches) {

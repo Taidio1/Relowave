@@ -1,5 +1,57 @@
 @charset "UTF-8";
 
+	
+  input[type="checkbox"]{
+	display:none;
+  }
+  
+  input[type="checkbox"]:hover + label:before{
+	opacity: .5;
+  }
+  
+  .checkbox{
+	display:flex;
+	position:relative;
+	padding-left:40px;
+	color: #111;
+  }
+  .checkbox-container{
+	display: flex;
+  }
+  .checkbox:before{
+	z-index:15;
+	content: '';
+	position:absolute;
+	left:0;
+	top: 11px;
+	transition:all 0.3s ease;
+	cursor:pointer;
+	width:15px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #444;
+	height:15px;
+  }
+  input[type="checkbox"]:checked + label{
+	color:#000;
+  }
+  
+  input[type="checkbox"]:checked +  label:before{
+	border-color: transparent;
+	border-left-color: #2ecc71;
+	border-bottom-color: #2ecc71;
+	transform:rotate(-50deg);
+	width:22px;
+	height:12px;
+	top: 3px;
+  }
+
+.carousel-control-prev-icon, 
+.carousel-control-next-icon {
+	background-color: #3d8cc5 !important;
+}
+
+
   /*Plany */
   ul li.text-left{
 	list-style-type: disc  !important;
@@ -104,7 +156,7 @@ ul {
 }
 
 .pricing-item .icon::after {
-  background: #447085 none repeat scroll 0 0;
+  background: #3d8cc5 none repeat scroll 0 0;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -118,7 +170,7 @@ ul {
 }
 
 .pricing-item.active .icon::after {
-  background: #447085 none repeat scroll 0 0;
+  background: #3d8cc5 none repeat scroll 0 0;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -148,7 +200,7 @@ ul {
 
 .pricing-header h2 {
   color: #323a45;
-  font-size: 50px;
+  font-size: 43px;
   font-weight: 900;
   letter-spacing: -1px;
   line-height: 1;
@@ -191,7 +243,7 @@ ul {
 }
 
 .pricing-area .pricing-item.active .pricing-header {
-  background: #447085 none repeat scroll 0 0;
+  background: #3d8cc5 none repeat scroll 0 0;
   border-color: transparent;
   margin: 0;
 }
@@ -418,10 +470,11 @@ ul {
   .carousel-control-next {
 	width: 3rem;
 	height: 3rem;
-	background-color: grey;
+	background-color: #3d8cc5;
 	border-radius: 50%;
 	top: 50%;
 	transform: translateY(-50%);
+	border-color: #3d8cc5;
   }
 
 
@@ -3769,7 +3822,7 @@ hr {
 
 .button-primary, .button-primary:focus {
 	color: #ffffff;
-	background-color: #3375ec;
+	background-color: #3d8cc5;
 	border-color: #1b8dc1;
 }
 
@@ -11599,7 +11652,7 @@ html:not(.lt-ie10) .not-animated {
 	font-size: 24px;
 	line-height: 53px;
 	color: #ffffff;
-	background: #ff6f80;
+	background: #3d8cc5;
 	border-radius: 50%;
 	overflow: hidden;
 	text-align: center;
