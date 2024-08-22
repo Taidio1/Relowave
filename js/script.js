@@ -804,12 +804,7 @@ if (window.matchMedia("(min-width:576px)").matches) {
 				}
 
 				// UI To Top
-				if (isDesktop && !isNoviBuilder) {
-					$().UItoTop({
-						easingType:     'easeOutQuad',
-						containerClass: 'ui-to-top mdi mdi-chevron-up'
-					});
-				}
+				
 
 				// RD Navbar
 				if (plugins.rdNavbar.length) {

@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width height=device-height initial-scale=1.0">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="images/logo-default-297x63.png" type="image/x-icon">
   <link rel="stylesheet" type="text/css"
     href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CMuli:100,300,400,600,800">
   <link rel="stylesheet" href="css/bootstrap.css">
@@ -62,6 +62,7 @@
                     width="148" height="31" /></a>
               </div>
 
+              
             </div>
             <div class="rd-navbar-nav-wrap">
               <!-- RD Navbar Nav-->
@@ -76,11 +77,12 @@
                 <li class="rd-nav-item"><a id="kontakt" class="rd-nav-link" href="index.html#kontaktpage">Kontakt</a>
                 </li>
               </ul>
+              <div class="dropdown centerr " tab-index="0">
+                <button id="dropdown-btn"></button>
+                <ul class="dropdown-content" id="dropdown-content"></ul>
+              </div>
             </div>
-            <div class="dropdown centerr" tab-index="0">
-              <button id="dropdown-btn"></button>
-              <ul class="dropdown-content" id="dropdown-content"></ul>
-            </div>
+            
 
           </div>
         </nav>
@@ -587,7 +589,7 @@
                           href="mailto:tetiana@relowave.com">tetiana@relowave.com</a></div>
                     </li>
                     <li class="unit"><span class="unit-left icon icon-sm text-accent mdi mdi-content-save"></span>
-                      <a class="link link-social-1 mdi mdi-telegram" href="https://t.me/relowave"></a>
+                      <a class="link link-social-1 mdi mdi-telegram" href="https://t.me/tetiana_relowave"></a>
                       <a class="link link-social-1 mdi mdi-whatsapp" href="https://wa.me/506658748"></a>
                       <a class="link link-social-1 mdi mdi-facebook" href="https://www.facebook.com/relowave"></a>
                       <a class="link link-social-1 mdi mdi-linkedin"
@@ -673,7 +675,7 @@
               </div>
               <div class="col-6 col-sm-12 col-lg-4 col-xl-12 text-right text-sm-left">
                 <div class="group group-2">
-                  <a class="link link-social-1 mdi mdi-telegram" href="https://t.me/relowave"></a>
+                  <a class="link link-social-1 mdi mdi-telegram" href="https://t.me/tetiana_relowave"></a>
                   <a class="link link-social-1 mdi mdi-whatsapp" href="https://wa.me/506658748"></a>
                   <a class="link link-social-1 mdi mdi-facebook" href="https://www.facebook.com/relowave"></a>
                   <a class="link link-social-1 mdi mdi-linkedin" href="https://www.linkedin.com/company/relowave/"></a>
@@ -692,6 +694,19 @@
         </div>
         -->
   </footer>
+  <a id="ringtone" href="sms:+48883279055" class="ui-to-top mdi mdi-message-processing"></a>
+<script>
+  
+  function shakeButton() {
+  const button = document.getElementById('ringtone'); // Zastąp 'your-button-id' prawdziwym id twojego przycisku
+  button.classList.add('shake')
+
+  setTimeout(() => {
+    button.classList.remove('shake')
+  }, 500);
+}
+setInterval(shakeButton, 10000);
+</script>
   </div>
   <div class="snackbars" id="form-output-global"></div>
   <script src="js/language.js"></script>

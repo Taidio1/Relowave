@@ -416,21 +416,16 @@ const dropdownContent = document.getElementById("dropdown-content");
 
 function setSelectedLocale(locale) {
   const intlLocale = new Intl.Locale(locale);
-  const langName = new Intl.DisplayNames([locale], {
-    type: "language"
-  }).of(intlLocale.language);
+  const langCode = intlLocale.language.toUpperCase().slice(0, 2); // Get the language code (e.g. "PL", "ENG", "UK")
 
   dropdownContent.innerHTML = "";
-
   const otherLocales = locales.filter((loc) => loc !== locale);
   otherLocales.forEach((otherLocale) => {
     const otherIntlLocale = new Intl.Locale(otherLocale);
-    const otherLangName = new Intl.DisplayNames([otherLocale], {
-      type: "language"
-    }).of(otherIntlLocale.language);
+    const otherLangCode = otherIntlLocale.language.toUpperCase().slice(0, 2);
 
     const listEl = document.createElement("li");
-    listEl.innerHTML = `${otherLangName} <img src="${getFlagSrc(otherIntlLocale.region)}" />`;
+    listEl.innerHTML = `${otherLangCode} <img src="${getFlagSrc(otherIntlLocale.region)}" />`;
     listEl.value = otherLocale;
     listEl.addEventListener("mousedown", function () {
       setSelectedLocale(otherLocale);
@@ -441,7 +436,7 @@ function setSelectedLocale(locale) {
     dropdownContent.appendChild(listEl);
   });
 
-  dropdownBtn.innerHTML = `<img src="${getFlagSrc(intlLocale.region)}" /> ${langName} <span class="arrow-down"></span>`;
+  dropdownBtn.innerHTML = `<img src="${getFlagSrc(intlLocale.region)}" /> ${langCode} <span class="arrow-down"></span>`;
   const selectedLanguage = languageMap[locale];
   updateTexts(selectedLanguage);
 };

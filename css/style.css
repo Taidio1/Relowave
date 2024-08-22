@@ -295,15 +295,15 @@ ul {
 }
 
 .btn-dark.border:hover {
-  background-color: #323a45;
+  background-color: #3d8cc5;
   color: #ffffff !important;
   border: 2px solid #323a45;
 }
 
 .btn-theme {
-    background-color: #447085;
+    background-color: #3d8cc5;
     color: #ffffff !important;
-    border: 2px solid #447085;
+    border: 2px solid #3d8cc5;
 }
 
 
@@ -577,8 +577,6 @@ ul {
 	transition: margin 0.2s;
   }
   
-  input.check-toggle-round-flat:checked + label {
-  }
   
   input.check-toggle-round-flat:checked + label:after {
 	margin-left: 41px;
@@ -735,7 +733,7 @@ body {
 	}
 	.centerr{
 		display: flex;
-    	justify-content: end;
+    	justify-content: center;
 	}
 }
 
@@ -1154,10 +1152,11 @@ p [style*='max-width'] {
 */
 .badge {
 	font-weight: 700;
-	color: #3375ec;
-	background: #e5ebf7;
+	color: #e5ebf7;
+	background: #3d8cc5;
 	text-transform: uppercase;
-	letter-spacing: .075em;
+	letter-spacing: .09em;
+	font-size: 14px !important;
 }
 
 .context-dark .badge, .bg-gray-900 .badge, .bg-accent .badge {
@@ -2344,7 +2343,7 @@ div.box-custom-5-main {
 	z-index: 2;
 	right: 0;
 	font-size: inherit;
-	color: #3375ec;
+	color: #3d8cc5;
 	opacity: .7;
 }
 
@@ -2358,7 +2357,7 @@ div.box-custom-5-main {
 
 @supports (-webkit-background-clip: text) {
 	.box-modern-icon {
-		background: linear-gradient(30deg, #0152e9, #adc7f7);
+		background: linear-gradient(30deg, #3d8cc5, #3d8cc5);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 	}
@@ -3569,7 +3568,6 @@ img {
 	display: inline-block;
 	font-weight: 400;
 	font-style: normal;
-	speak: none;
 	text-transform: none;
 }
 
@@ -5164,7 +5162,7 @@ textarea.form-input {
 		margin-right: auto;
 	}
 	.centerr{
-		justify-content:end;
+		justify-content:center;
 	}
 }
 
@@ -8981,7 +8979,7 @@ h5.iphone-frame-4-next-text {
 }
 
 .text-accent {
-	color: #3375ec;
+	color: #3d8cc5;
 }
 
 .text-secondary {
@@ -9592,7 +9590,7 @@ html [class*='section-'].section-bottom-0 {
 	}
 
 	.centerr{
-		justify-content:end;
+		justify-content:center;
 	}
 }
 
@@ -10169,7 +10167,7 @@ html .section-decoration-4 {
 }
 .centerr{
 	display: flex;
-	justify-content:end;
+	justify-content:center;
 }
 @media (min-width: 2050px) {
 	.section-decoration-4 {
@@ -10642,8 +10640,7 @@ html .section-decoration-4 {
 
 .bg-accent .button-primary:hover {
 	color: #ffffff;
-	background: #ff6f80;
-	border-color: #ff6f80;
+	background: #3d8cc5;
 }
 
 .bg-accent .button-secondary:hover {
@@ -11640,8 +11637,49 @@ html:not(.lt-ie10) .not-animated {
 
 /*
 *
-* ToTop
+* ToCa;;
 */
+
+.shake {
+	animation: shake 0.5s ease;
+	animation-iteration-count: infinite;
+  }
+  @keyframes shake {
+	0% {
+	  transform: translate(1px, 1px) rotate(0deg);
+	}
+	10%{
+	  transform: translate(-1px, -1px) rotate(-1deg);
+	}
+	20%{
+	  transform: translate(-1px, 0px) rotate(1deg);
+	}
+	30%{
+	  transform: translate(1px, 1px) rotate(0deg);
+	}
+	40%{
+	  transform: translate(1px, -1px) rotate(1deg);
+	}
+	50%{
+	  transform: translate(-1px, 2px) rotate(-1deg);
+	}
+	60%{
+	  transform: translate(-1px, 1px) rotate(0deg);
+	}
+	70%{
+	  transform: translate(1px, 1px) rotate(-1deg);
+	}
+	80%{
+	  transform: translate(-1px, -1px) rotate(1deg);
+	}
+	90%{
+	  transform: translate(1px, 2px) rotate(0deg);
+	}
+	100%{
+	  transform: translate(1px, -1px) rotate(-1deg);
+	}
+  }
+
 .ui-to-top {
 	position: fixed;
 	right: 15px;
@@ -11658,7 +11696,6 @@ html:not(.lt-ie10) .not-animated {
 	text-align: center;
 	text-decoration: none;
 	transition: .45s all ease-in-out;
-	transform: translate3d(0, 100px, 0);
 }
 
 .ui-to-top:hover {
