@@ -55,29 +55,44 @@ const languages = {
     TytulPl: "NASZE PAKIETY",
     PodTytulPl: "Dostosowane do Twoich potrzeb",
     Title1Pl: "KONSULTACJA",
-    Title2Pl: "KONSULTACJA",
-    Title3Pl: "PAKIET PODSTAWOWY",
-    Title4Pl: "PAKIET BIZNESOWY",
+    Title2Pl: "BASIC ",
+    Title3Pl: "BASIC PLUS",
+    Title4Pl: "RELOCATION UNLIMITED",
 
     Kons1Pl: "Wstępna Konsultacja",
     Kons2Pl: "Analiza Dokumentów",
-    Kons3Pl: "Porady Wstępne Dotyczące Legalizacji Pobytu",
+    Kons3Pl: "Przygotowanie pakietu dokumentów",
     Kons4Pl: "Informacje Na Temat Wymaganych Dokumentów",
 
-    Rodz1Pl: "Konsultacje Dla Całej Rodziny",
-    Rodz2Pl: "Pomoc W Przygotowaniu I Złożeniu Wniosków",
-    Rodz3Pl: "Kompleksowa Obsługa Dokumentacji Dla Wszystkich Członków Rodziny",
-    Rodz4Pl: "Tłumaczenia Przysięgłe Dokumentów",
-    Rodz5Pl: "Reprezentacja Przed Urzędami",
-    Rodz6Pl: "Aktualizacje Statusu Wniosków",
+    Basic1Pl: "Wstępna Konsultacja",
+    Basic2Pl: "Analiza dokumentów",
+    Basic3Pl: "Przygotowanie pakietu dokumentów",
+    Basic4Pl: "Informacje Na Temat Wymaganych Dokumentów",
+    Basic5Pl: "*Cena nie obejmuje opłaty administracyjne",
+    Basic6Pl: "**Cena ostateczna zależy od podstawy składanego wniosku",
 
-    Praca1Pl: "Legalizacji Pobytu Dla Celów Zawodowych",
-    Praca2Pl: "Wsparcie W Uzyskaniu Zezwoleń Na Pracę",
-    Praca3Pl: "Pomoc W Przygotowaniu Dokumentacji",
-    Praca4Pl: "Tłumaczenia Dokumentów Zawodowych",
-    Praca5Pl: "Porady Dotyczące Przepisów Prawa Pracy",
-    Praca6Pl: "Reprezentacja Przed Urzędami Pracy",
+    Rodz1Pl: "Konsultacja wstępna",
+    Rodz2Pl: "Analiza dokumentów",
+    Rodz3Pl: "Umówienia terminu w urzędzie",
+    Rodz4Pl: "Pełnomocnictwo",
+    Rodz5Pl: "Wspólna wizyta w Urzędzie Wojewódzkim w celu złożenia wniosku",
+    Rodz6Pl: "Nadzór nad przebiegiem sprawy oraz pilnowanie terminów",
+    Rodz7Pl: "Komunikacja z inspektorem w imieniu klienta",
+    Rodz8Pl: "Uzupełnienie dokumentów z imieniu klienta",
+    Rodz9Pl: "Rezerwacja wizyty dla odbioru karty pobytu",
+    Rodz10Pl: "*Cena nie obejmuje opłaty administracyjne",
+    Rodz11Pl: "**Cena ostateczna zależy od podstawy składanego wniosku",
 
+    Praca1Pl: "Konsultacja wstępna",
+    Praca2Pl: "Analiza dokumentów",
+    Praca3Pl: "Pomoc w wyborze optymalnej ścieżki dla relokacji",
+    Praca4Pl: "Wsparcie w poszukiwaniu biura nieruchomości, szkoły/przedszkole dla dzieci, kursu językowego na podstawie twoich wymagań",
+    Praca5Pl: "Pomoc w otrzymaniu numeru PESEL",
+    Praca6Pl: "Pomoc w otrzymaniu zaświadczenia o zameldowanie",
+    Praca7Pl: "Założenie konta bankowego",
+    Praca8Pl: "Wymiana zagranicznego prawa jazdy na polskie",
+    Praca9Pl: "Pomoc w uzyskaniu pierwszego zezwolenia na pobyt czasowy na podstawie pakietu „BASIC PLUS''",
+    
     Btn1Pl: "Kontakt",
     Btn2Pl: "Kontakt",
     Btn3Pl: "Kontakt",
@@ -157,28 +172,44 @@ const languages = {
     TytulPl: "OUR PACKAGES",
     PodTytulPl: "Tailored to Your Needs",
     Title1Pl: "CONSULTATION",
-    Title2Pl: "CONSULTATION",
-    Title3Pl: "BASIC PACKAGE",
-    Title4Pl: "BUSINESS PACKAGE",
-
+    Title2Pl: "BASIC",
+    Title3Pl: "BASIC PLUS",
+    Title4Pl: "RELOCATION UNLIMITED",
+    
     Kons1Pl: "Initial Consultation",
     Kons2Pl: "Document Analysis",
-    Kons3Pl: "Preliminary Advice on Residence Legalization",
+    Kons3Pl: "Preparation of Document Package",
     Kons4Pl: "Information on Required Documents",
-
-    Rodz1Pl: "Consultations for the Whole Family",
-    Rodz2Pl: "Assistance in Preparing and Submitting Applications",
-    Rodz3Pl: "Comprehensive Documentation Service for All Family Members",
-    Rodz4Pl: "Certified Document Translations",
-    Rodz5Pl: "Representation Before Offices",
-    Rodz6Pl: "Application Status Updates",
-
-    Praca1Pl: "Residence Legalization for Professional Purposes",
-    Praca2Pl: "Support in Obtaining Work Permits",
-    Praca3Pl: "Assistance in Preparing Documentation",
-    Praca4Pl: "Professional Document Translations",
-    Praca5Pl: "Advice on Labor Law Regulations",
-    Praca6Pl: "Representation Before Employment Offices",
+    
+    Basic1Pl: "Initial Consultation",
+    Basic2Pl: "Document Analysis",
+    Basic3Pl: "Preparation of Document Package",
+    Basic4Pl: "Information on Required Documents",
+    Basic5Pl: "*Price does not include administrative fees",
+    Basic6Pl: "**Final price depends on the basis of the application",
+    
+    Rodz1Pl: "Initial Consultation",
+    Rodz2Pl: "Document Analysis",
+    Rodz3Pl: "Appointment Scheduling at the Office",
+    Rodz4Pl: "Power of Attorney",
+    Rodz5Pl: "Joint Visit to the Voivodeship Office to Submit the Application",
+    Rodz6Pl: "Supervision of the Case and Keeping Track of Deadlines",
+    Rodz7Pl: "Communication with the Inspector on Behalf of the Client",
+    Rodz8Pl: "Completing Documents on Behalf of the Client",
+    Rodz9Pl: "Appointment Booking for Residence Card Collection",
+    Rodz10Pl: "*Price does not include administrative fees",
+    Rodz11Pl: "**Final price depends on the basis of the application",
+    
+    Praca1Pl: "Initial Consultation",
+    Praca2Pl: "Document Analysis",
+    Praca3Pl: "Assistance in Choosing the Optimal Path for Relocation",
+    Praca4Pl: "Support in Finding a Real Estate Agency, School/Kindergarten for Children, Language Course Based on Your Requirements",
+    Praca5Pl: "Assistance in Obtaining a PESEL Number",
+    Praca6Pl: "Assistance in Obtaining a Residence Registration Certificate",
+    Praca7Pl: "Bank Account Setup",
+    Praca8Pl: "Exchange of Foreign Driver's License for Polish One",
+    Praca9Pl: "Assistance in Obtaining the First Temporary Residence Permit under the 'BASIC PLUS' Package",
+    
 
     Btn1Pl: "Contact",
     Btn2Pl: "Contact",
@@ -260,28 +291,44 @@ const languages = {
     TytulPl: "НАШІ ПАКЕТИ",
     PodTytulPl: "Задовольняючи ваші потреби",
     Title1Pl: "КОНСУЛЬТАЦІЯ",
-    Title2Pl: "КОНСУЛЬТАЦІЯ",
-    Title3Pl: "БАЗОВИЙ ПАКЕТ",
-    Title4Pl: "БІЗНЕС-ПАКЕТ",
+    Title2Pl: "БАЗОВИЙ",
+    Title3Pl: "БАЗОВИЙ ПЛЮС",
+    Title4Pl: "РЕЛОКАЦІЯ БЕЗ ОБМЕЖЕНЬ",
 
-    Kons1Pl: "Попередня Консультація",
+    Kons1Pl: "Початкова Консультація",
     Kons2Pl: "Аналіз Документів",
-    Kons3Pl: "Попередні поради щодо легалізації перебування",
-    Kons4Pl: "Інформація про необхідні документи",
+    Kons3Pl: "Підготовка Пакету Документів",
+    Kons4Pl: "Інформація про Необхідні Документи",
 
-    Rodz1Pl: "Консультації для всієї сім'ї",
-    Rodz2Pl: "Допомога в підготовці та подачі заяв",
-    Rodz3Pl: "Комплексне обслуговування документації для всіх членів сім'ї",
-    Rodz4Pl: "Нотаріальні переклади документів",
-    Rodz5Pl: "Представництво перед установами",
-    Rodz6Pl: "Оновлення статусу заяв",
+    Basic1Pl: "Початкова Консультація",
+    Basic2Pl: "Аналіз Документів",
+    Basic3Pl: "Підготовка Пакету Документів",
+    Basic4Pl: "Інформація про Необхідні Документи",
+    Basic5Pl: "*Ціна не включає адміністративні збори",
+    Basic6Pl: "**Кінцева ціна залежить від підстави подання заявки",
 
-    Praca1Pl: "Легалізація перебування для професійних цілей",
-    Praca2Pl: "Допомога в отриманні дозволів на роботу",
-    Praca3Pl: "Допомога в підготовці документації",
-    Praca4Pl: "Переклади професійних документів",
-    Praca5Pl: "Поради щодо трудового права",
-    Praca6Pl: "Представництво перед органами праці",
+    Rodz1Pl: "Початкова Консультація",
+    Rodz2Pl: "Аналіз Документів",
+    Rodz3Pl: "Запис на прийом в офісі",
+    Rodz4Pl: "Довіреність",
+    Rodz5Pl: "Спільний Візит до Воєводського Управління для Подання Заявки",
+    Rodz6Pl: "Нагляд за Розглядом Справи та Контроль за Дотриманням Термінів",
+    Rodz7Pl: "Комунікація з Інспектором від Імені Клієнта",
+    Rodz8Pl: "Доповнення Документів від Імені Клієнта",
+    Rodz9Pl: "Запис на Прийом для Отримання Карти Побиту",
+    Rodz10Pl: "*Ціна не включає адміністративні збори",
+    Rodz11Pl: "**Кінцева ціна залежить від підстави подання заявки",
+
+    Praca1Pl: "Початкова Консультація",
+    Praca2Pl: "Аналіз Документів",
+    Praca3Pl: "Допомога у Виборі Оптимального Шляху для Релокації",
+    Praca4Pl: "Підтримка в Пошуку Агенції Нерухомості, Школи/Дитячого Саду для Дітей, Мовного Курсу на Основі Ваших Вимог",
+    Praca5Pl: "Допомога в Отриманні Номера PESEL",
+    Praca6Pl: "Допомога в Отриманні Свідоцтва про Реєстрацію Місця Проживання",
+    Praca7Pl: "Відкриття Банківського Рахунку",
+    Praca8Pl: "Обмін Іноземного Водійського Посвідчення на Польське",
+    Praca9Pl: "Допомога в Отриманні Першого Тимчасового Дозволу на Проживання за Пакетом 'BASIC PLUS'",
+
 
     Btn1Pl: "Контакт",
     Btn2Pl: "Контакт",
@@ -362,19 +409,32 @@ function updateTexts(language) {
   document.getElementById('Title1Pl').innerText = languages[language].Title1Pl;
   document.getElementById('Title2Pl').innerText = languages[language].Title2Pl;
   document.getElementById('Title3Pl').innerText = languages[language].Title3Pl;
+  document.getElementById('Title4Pl').innerText = languages[language].Title4Pl;
   //Opisy
+  //Pakiet Basic
+  document.getElementById('Basic1Pl').innerText = languages[language].Basic1Pl;
+  document.getElementById('Basic2Pl').innerText = languages[language].Basic2Pl;
+  document.getElementById('Basic3Pl').innerText = languages[language].Basic3Pl;
+  document.getElementById('Basic4Pl').innerText = languages[language].Basic4Pl;
+  document.getElementById('Basic5Pl').innerText = languages[language].Basic5Pl;
+  document.getElementById('Basic6Pl').innerText = languages[language].Basic6Pl;
   //Konsultacja
   document.getElementById('Kons1Pl').innerText = languages[language].Kons1Pl;
   document.getElementById('Kons2Pl').innerText = languages[language].Kons2Pl;
   document.getElementById('Kons3Pl').innerText = languages[language].Kons3Pl;
   document.getElementById('Kons4Pl').innerText = languages[language].Kons4Pl;
-  //Pakiet Rodzinny
+  //Pakiet Basic Plus
   document.getElementById('Rodz1Pl').innerText = languages[language].Rodz1Pl;
   document.getElementById('Rodz2Pl').innerText = languages[language].Rodz2Pl;
   document.getElementById('Rodz3Pl').innerText = languages[language].Rodz3Pl;
   document.getElementById('Rodz4Pl').innerText = languages[language].Rodz4Pl;
   document.getElementById('Rodz5Pl').innerText = languages[language].Rodz5Pl;
   document.getElementById('Rodz6Pl').innerText = languages[language].Rodz6Pl;
+  document.getElementById('Rodz7Pl').innerText = languages[language].Rodz7Pl;
+  document.getElementById('Rodz8Pl').innerText = languages[language].Rodz8Pl;
+  document.getElementById('Rodz9Pl').innerText = languages[language].Rodz9Pl;
+  document.getElementById('Rodz10Pl').innerText = languages[language].Rodz10Pl;
+  document.getElementById('Rodz11Pl').innerText = languages[language].Rodz11Pl;
   //Praca
   document.getElementById('Praca1Pl').innerText = languages[language].Praca1Pl;
   document.getElementById('Praca2Pl').innerText = languages[language].Praca2Pl;
@@ -382,6 +442,9 @@ function updateTexts(language) {
   document.getElementById('Praca4Pl').innerText = languages[language].Praca4Pl;
   document.getElementById('Praca5Pl').innerText = languages[language].Praca5Pl;
   document.getElementById('Praca6Pl').innerText = languages[language].Praca6Pl;
+  document.getElementById('Praca7Pl').innerText = languages[language].Praca7Pl;
+  document.getElementById('Praca8Pl').innerText = languages[language].Praca8Pl;
+  document.getElementById('Praca9Pl').innerText = languages[language].Praca9Pl;
   //Btn
   document.getElementById('Btn1Pl').innerText = languages[language].Btn1Pl;
   document.getElementById('Btn2Pl').innerText = languages[language].Btn2Pl;

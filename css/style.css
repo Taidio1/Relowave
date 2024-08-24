@@ -41,9 +41,9 @@
 	border-left-color: #2ecc71;
 	border-bottom-color: #2ecc71;
 	transform:rotate(-50deg);
-	width:22px;
-	height:12px;
-	top: 3px;
+	width: 17px;
+    height: 10px;
+    top: 6px;
   }
 
 .carousel-control-prev-icon, 
@@ -236,7 +236,6 @@ ul {
 }
 
 .pricing-item li {
-  font-family: "Poppins",sans-serif;
   line-height: 40px;
   margin: 0 30px;
   text-transform: capitalize;
@@ -313,7 +312,6 @@ ul {
 
 .dropdown button {
 	background-color: #253849;
-	min-width: 130px;
 	width: max-content;
 	height: 40px;
 	border-radius: 5px;
@@ -10168,6 +10166,8 @@ html .section-decoration-4 {
 .centerr{
 	display: flex;
 	justify-content:center;
+	position: absolute !important;
+	right: 20px;
 }
 @media (min-width: 2050px) {
 	.section-decoration-4 {
@@ -12331,7 +12331,7 @@ html.tablet .ui-to-top {
 
 .rd-navbar-fixed .rd-navbar-brand {
 	position: relative;
-	margin-left: 6px;
+	margin-left:-37px;
 	overflow: hidden;
 	white-space: nowrap;
 	text-overflow: ellipsis;
