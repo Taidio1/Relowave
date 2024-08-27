@@ -414,15 +414,11 @@ function updateTexts(language) {
   //Pakiet Basic
   document.getElementById('Basic1Pl').innerText = languages[language].Basic1Pl;
   document.getElementById('Basic2Pl').innerText = languages[language].Basic2Pl;
-  document.getElementById('Basic3Pl').innerText = languages[language].Basic3Pl;
-  document.getElementById('Basic4Pl').innerText = languages[language].Basic4Pl;
   document.getElementById('Basic5Pl').innerText = languages[language].Basic5Pl;
   document.getElementById('Basic6Pl').innerText = languages[language].Basic6Pl;
   //Konsultacja
   document.getElementById('Kons1Pl').innerText = languages[language].Kons1Pl;
   document.getElementById('Kons2Pl').innerText = languages[language].Kons2Pl;
-  document.getElementById('Kons3Pl').innerText = languages[language].Kons3Pl;
-  document.getElementById('Kons4Pl').innerText = languages[language].Kons4Pl;
   //Pakiet Basic Plus
   document.getElementById('Rodz1Pl').innerText = languages[language].Rodz1Pl;
   document.getElementById('Rodz2Pl').innerText = languages[language].Rodz2Pl;
