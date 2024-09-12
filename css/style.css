@@ -313,7 +313,6 @@ ul {
 .pricing-item li {
   line-height: 40px;
   margin: 0 30px;
-  text-transform: capitalize;
 }
 
 .pricing-area .pricing-item.active .pricing-header {
