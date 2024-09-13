@@ -43,7 +43,7 @@ const languages = {
     punkt2AU: "Wykwalifikowany zespół:",
     punkt3AU: "Elastyczność i zaangażowanie:",
 
-    Opis1AU: "Ponad 5 lat doświadczenia w branży",
+    Opis1AU: "Ponad 7 lat doświadczenia w branży",
     Opis2AU: "Nasi specjaliści to eksperci w dziedzinie legalizacji pobytu.",
     Opis3AU: "Dopasowujemy nasze usługi do indywidualnych potrzeb każdego klienta.",
     btnMore: "Czytaj Więcej",
@@ -59,12 +59,12 @@ const languages = {
     Title3Pl: "BASIC PLUS",
     Title4Pl: "RELOCATION UNLIMITED",
 
-    Kons1Pl: "Wstępna Konsultacja",
-    Kons2Pl: "Analiza Dokumentów",
+    Kons1Pl: "Wstępna konsultacja",
+    Kons2Pl: "Analiza dokumentów",
     Kons3Pl: "Przygotowanie pakietu dokumentów",
-    Kons4Pl: "Informacje Na Temat Wymaganych Dokumentów",
+    Kons4Pl: "Informacje na temat wymaganych dokumentów",
 
-    Basic1Pl: "Wstępna Konsultacja",
+    Basic1Pl: "Wstępna konsultacja",
     Basic2Pl: "Analiza dokumentów",
     Basic3Pl: "Przygotowanie pakietu dokumentów",
     Basic4Pl: "Informacje Na Temat Wymaganych Dokumentów",
@@ -114,7 +114,7 @@ const languages = {
     BtnWi: "Wyślij Wiadomość",
 
     //Footer
-    Slogan: "Pomagamy Ludziom od 2022 roku",
+    Slogan: "Twój migracyjny konsjerż w Polsce.",
     StronaglownaFO: "Strona Główna",
     OnasFO: "O Nas",
     UslugiFO: "Usługi",
@@ -160,7 +160,7 @@ const languages = {
     punkt2AU: "Qualified Team:",
     punkt3AU: "Flexibility and Commitment:",
 
-    Opis1AU: "Over 5 years of industry experience",
+    Opis1AU: "Over 7 years of industry experience",
     Opis2AU: "Our specialists are experts in the field of residence legalization.",
     Opis3AU: "We tailor our services to the individual needs of each client.",
     btnMore: "Read More",
@@ -235,7 +235,7 @@ const languages = {
     BtnWi: "Send Message",
 
     //Footer
-    Slogan: "Helping People since 2022",
+    Slogan: "Your migration concierge in Poland.",
     StronaglownaFO: "Home",
     OnasFO: "About Us",
     UslugiFO: "Services",
@@ -279,7 +279,7 @@ const languages = {
     punkt2AU: "Кваліфікована команда:",
     punkt3AU: "Гнучкість та відданість:",
 
-    Opis1AU: "Понад 5 років досвіду в галузі",
+    Opis1AU: "Понад 7 років досвіду в галузі",
     Opis2AU: "Наші спеціалісти - експерти в галузі легалізації перебування.",
     Opis3AU: "Ми адаптуємо наші послуги до індивідуальних потреб кожного клієнта.",
     btnMore: "Читати більше",
@@ -351,7 +351,7 @@ const languages = {
     BtnWi: "Надіслати повідомлення",
 
     //footer
-    Slogan: "Допомагаємо людям з 2022 року",
+    Slogan: "Ваш міграційний консьєрж у Польщі.",
     StronaglownaFO: "Головна сторінка",
     OnasFO: "Про нас",
     UslugiFO: "Послуги",
